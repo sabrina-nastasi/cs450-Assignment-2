@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+
+.header {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250, 235, 230);
+  border-bottom: 8px solid #FFC107;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+header h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+
+.right-section p {
+  font-size: 1rem;
+  color: black;
+}
+
+.section-title {
+  font-style: italic;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.section-content {
+  flex-basis: 75%;
+}
+
+.education-item {
+  margin-bottom: 10px;
+}
